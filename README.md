@@ -1,10 +1,7 @@
 # RECIPE- INTELLIGENCE
 
-<<<<<<< HEAD
+
 ![image link](https://github.com/muturi-cyber/Recipe-Intelligence-/blob/main/pexels-janetrangdoan-1132047.jpg)
-=======
-! [image link](https://github.com/muturi-cyber/Recipe-Intelligence-/blob/main/pexels-janetrangdoan-1132047.jpg)
->>>>>>> 6abc15ace2c5c7ea89bf994004506bcc3cbff7ce
 
 ---
 
@@ -69,27 +66,38 @@ The dataset used in this project is sourced from scraping websites
 
 ### What are the most common ingredients used across all cuisines?
 
+
 #### 1. Foreign cuisine
+
  
 ![image link](https://github.com/muturi-cyber/Recipe-Intelligence-/blob/main/top%2010%20ingdnts%20in%20foreign%20cuisine.png)
 
+
 Most common ingredient in Foreign cuisine is Salt.
 
+
 #### 2. African cuisine
+
 
 ![image link](https://github.com/muturi-cyber/Recipe-Intelligence-/blob/main/top%2010%20ingdnt%20african%20cuisine.png)
 
 Most common ingredient in African cuisine is Salt.
 
+
 #### Correlation between different Nutrients
+
 
 ![image link](https://github.com/muturi-cyber/Recipe-Intelligence-/blob/main/corr%20btn%20diff%20nutrients.png)
 
+
 #### Top 10 healthiest African recipes
+
 
 ![image link](https://github.com/muturi-cyber/Recipe-Intelligence-/blob/main/top%2010%20healthiest%20african%20recipies.png)
 
+
 #### Top 10 healthiest international recipes
+
 
 ![image link](https://github.com/muturi-cyber/Recipe-Intelligence-/blob/main/top%2010%20healthiest%20internl%20recipies.png)
 
