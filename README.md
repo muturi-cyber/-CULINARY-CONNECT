@@ -1,6 +1,9 @@
 # RECIPE- INTELLIGENCE
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 03dd78b2701e60bed564ba399ab5cffa1c1694df
 ![image link](https://github.com/muturi-cyber/Recipe-Intelligence-/blob/main/pexels-janetrangdoan-1132047.jpg)
 
 ---
