@@ -1,6 +1,6 @@
 # RECIPE- INTELLIGENCE
 
-![image link] (https://github.com/muturi-cyber/Recipe-Intelligence-/blob/main/pexels-janetrangdoan-1132047.jpg)
+![image link] ()
 
 ---
 
