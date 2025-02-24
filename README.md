@@ -1,14 +1,22 @@
 # RECIPE- INTELLIGENCE
 
+<<<<<<< HEAD
 ![image link](https://github.com/muturi-cyber/Recipe-Intelligence-/blob/main/pexels-janetrangdoan-1132047.jpg)
+=======
+! [image link](https://github.com/muturi-cyber/Recipe-Intelligence-/blob/main/pexels-janetrangdoan-1132047.jpg)
+>>>>>>> 6abc15ace2c5c7ea89bf994004506bcc3cbff7ce
 
 ---
 
 #### Authors:
 Adrianna Ndubi
+
 Caroline Kimani
+
 Dennis Muuo
+
 Fiona Amugune
+
 Daniel Karue
 
 ---
