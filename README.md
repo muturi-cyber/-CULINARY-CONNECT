@@ -56,14 +56,18 @@ Recipe Recommendation System and Sentiment Analysis Model.
 ---
 
 ## DATA UNDERSTANDING
+
 The dataset used in this project is sourced from scraping websites
 
 ---
 
 ## DATA CLEANING
 1.Checked for missing values
+
 2.Dropping the irrelevant columns
+
 3.Checked for duplicate values
+
 4.Cleaning of some columns
 
 ---
@@ -139,18 +143,26 @@ Precision, Recall,RMSE and MAE to measure the recommendation quality and relevan
 
 2.SENTIMENTAL ANALYSIS MODEL
 
-Objective: 
-Classify user reiviews into positive,neutral or negative sentiments,to understand user preferences and improve engagement
+Objective:
+
+Classify user reiviews into positive, neutral or negative sentiments,to understand user preferences and improve engagement
  
-Modelling Techniques Used: 
-Data Preprocessing: 
+Modelling Techniques Used:
+
+Data Preprocessing:
+
 Cleaning text data by removing stopwords, punctuation and special characters.
+
 Tokenization and vectorization using TF-IDF or Word Embeddings for feature extraction.
 
-Model Selection and Training:  
+Model Selection and Training: 
+
 Naive Bayes: It is effective  for text classification based on word frequency.
+
 Logisitic Regression: It’s used to predict the sentiment category.
+
 Support Vector Machines: It’s suitable for high dimensional sentiment classification tasks.
+
 Evaluation Metrics:
 
 Accuracy, Precision, Recall and F1-score to assess model performance.
@@ -175,7 +187,9 @@ Build a Chatbot for User Engagement
  
 Chatbot Features:
 Provide recipe suggestions based on user mood (using sentiment analysis results).
+
 Answer nutrition-related questions (calories, ingredients, dietary preferences).
+
 Support voice commands for an interactive experience.
 
 
