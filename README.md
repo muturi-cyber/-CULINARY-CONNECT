@@ -1,4 +1,4 @@
-# RECIPE- INTELLIGENCE
+# CULLINARY CONNECT- A Smart Recipe Recommendation and Nutrition Analysis Platform 
 
 ---
 
@@ -61,10 +61,10 @@ The dataset used in this project is sourced from scraping websites
 ---
 
 ## DATA CLEANING
-1.Checked for missing values
-2.Dropping the irrelevant columns
-3.Checked for duplicate values
-4.Cleaning of some columns
+## 1.Checked for missing values
+## 2.Dropping the irrelevant columns
+## 3.Checked for duplicate values
+## 4.Cleaning of some columns
 
 ---
 
@@ -105,13 +105,13 @@ High fat foods typically contain more saturated fat and fatty acids.
 Sodium rich foods tend to have less potassium which may impact dietary balance. 
 
 
-#### Top 10 healthiest African recipes
+#### Top 10 Healthiest African Recipes
 
 
 ![image link](https://github.com/muturi-cyber/Recipe-Intelligence-/blob/main/top%2010%20healthiest%20african%20recipies.png)
 
 
-#### Top 10 healthiest international recipes
+#### Top 10 Healthiest International Recipes
 
 
 ![image link](https://github.com/muturi-cyber/Recipe-Intelligence-/blob/main/top%2010%20healthiest%20internl%20recipies.png)
@@ -128,7 +128,7 @@ Provide personalized recipe suggestions to users based on preference, past inter
 Modelling Techinques used:
  
 Content-Based Filtering:
-it utilizes TF-IDF or cosine similarity to recommend recipes based on ingredient overlap.
+It utilizes TF-IDF or cosine similarity to recommend recipes based on ingredient overlap.
  
 Collaborative Filtering:
 Leverages user item interaction matrix for personalized suggestions.
@@ -151,8 +151,8 @@ Model Selection and Training:
 Naive Bayes: It is effective  for text classification based on word frequency.
 Logisitic Regression: It’s used to predict the sentiment category.
 Support Vector Machines: It’s suitable for high dimensional sentiment classification tasks.
-Evaluation Metrics:
 
+Evaluation Metrics:
 Accuracy, Precision, Recall and F1-score to assess model performance.
 
 ---
