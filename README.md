@@ -61,10 +61,10 @@ The dataset used in this project is sourced from scraping websites
 ---
 
 ## DATA CLEANING
-# 1.Checked for missing values
-# 2.Dropping the irrelevant columns
-# 3.Checked for duplicate values
-# 4.Cleaning of some columns
+### 1.Checked for missing values
+### 2.Dropping the irrelevant columns
+### 3.Checked for duplicate values
+### 4.Cleaning of some columns
 
 ---
 
