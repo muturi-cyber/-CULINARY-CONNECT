@@ -46,7 +46,6 @@ Recipe Recommendation System and Sentiment Analysis Model.
 - **Platform Users:** Seek personalized and diverse recipe recommendations.
 - **Developers & Data Science Team:** Responsible for model development and chatbot integration.
 - **Business Analysts:** Utilize insights to identify popular trends and user preferences.
-- **Power BI Users:** Access insights through interactive dashboards.
 
 
 ### EDA Integration
@@ -62,10 +61,10 @@ The dataset used in this project is sourced from scraping websites
 ---
 
 ## DATA CLEANING
-1. checked for missing values
-2. dropping the irrelevant columns
-3. checked for duplicate values
-4. cleaning of some columns
+1.Checked for missing values
+2.Dropping the irrelevant columns
+3.Checked for duplicate values
+4.Cleaning of some columns
 
 ---
 
@@ -120,7 +119,7 @@ Sodium rich foods tend to have less potassium which may impact dietary balance.
 
 ## MODELING
 
-1. RECOMMENDATION SYSTEM
+1.RECOMMENDATION SYSTEM
 
 Objective:
  
@@ -128,18 +127,17 @@ Provide personalized recipe suggestions to users based on preference, past inter
  
 Modelling Techinques used:
  
- Content-Based Filtering:
- it utilizes TF-IDF or cosine similarity to recommend recipes based on ingredient overlap.
+Content-Based Filtering:
+it utilizes TF-IDF or cosine similarity to recommend recipes based on ingredient overlap.
  
- Collaborative Filtering:
- Leverages user item interaction matrix for personalized suggestions.
+Collaborative Filtering:
+Leverages user item interaction matrix for personalized suggestions.
  
 Evaluation Metrics:
 
 Precision, Recall,RMSE and MAE to measure the recommendation quality and relevance.
 
-
-2. SENTIMENTAL ANALYSIS MODEL
+2.SENTIMENTAL ANALYSIS MODEL
 
 Objective: 
 Classify user reiviews into positive,neutral or negative sentiments,to understand user preferences and improve engagement
@@ -157,8 +155,35 @@ Evaluation Metrics:
 
 Accuracy, Precision, Recall and F1-score to assess model performance.
 
+---
+
 
 ## CONCLUSION
+
+The Sentiment Analysis Model provides valuable insights into customer opinions, allowing businesses to improve their offerings. However,
+refining text cleaning and model tuning can improve accuracy.
+
+The Recommendation System successfully suggests recipes but can be enhanced with personalized filtering and user feedback loops.
+
+Implementing these models in a real-world food app can boost user engagement, improve satisfaction, and increase retention rates.
+
+---
+
+## NEXT STEP
+
+Build a Chatbot for User Engagement
+ 
+Chatbot Features:
+Provide recipe suggestions based on user mood (using sentiment analysis results).
+Answer nutrition-related questions (calories, ingredients, dietary preferences).
+Support voice commands for an interactive experience.
+
+
+
+
+
+
+
 
 
 
