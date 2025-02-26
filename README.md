@@ -1,4 +1,4 @@
-# RECIPE- INTELLIGENCE
+#  CULINARY CONNECT - A Smart Recipe Recommendation and Nutrition Analysis Platform
 
 ---
 
@@ -57,11 +57,73 @@ Recipe Recommendation System and Sentiment Analysis Model.
 
 ## DATA UNDERSTANDING
 
-The dataset used in this project is sourced from scraping websites
+The dataset used in this project is sourced from scraping websites.
+
+#### International Recipes Data
+
+name; Name of the recipe
+
+id; Unique identifier for the recipe
+
+minutes; Time required to prepare the recipe (in mins)
+
+tag; Tags associated with the recipe
+
+steps; Step-by-step instructions for preparation
+
+ingredients; List of ingredients used
+
+calories; Caloric content per serving
+
+total fat (PDV); Total fat content as a percentage of daily value
+
+sugar (PDV); Sugar content as a percentage of daily value
+
+sodium (PDV); Sodium content as a percentage of daily value
+
+protein (PDV); Protein content as a percentage of daily value
+
+saturated fat (PDV); Saturated fat content as a percentage of daily value
+
+carbohydrates (PDV); Carbohydrate content as a percentage of daily value
+
+
+#### Nutrition Data
+
+name; Name of the food item
+
+serving_size; Size of the serving (in grams or milliliters)
+
+calories; Caloric content per serving
+
+total_fat; Total fat content (in grams)
+
+saturated_fat; Saturated fat content (in grams)
+
+cholesterol; Cholesterol content (in mg)
+
+sodium; Sodium content (in mg)
+
+potassium; Potassium content (in mg)
+
+saturated_fatty_acids; Total saturated fatty acids (in grams)
+
+#### Interactions Data
+
+user_id; Unique identifier for the user
+
+recipe_id; Unique identifier for the recipe
+
+date; Date of interaction
+
+rating; User's rating for the recipe
+
+review; User's review or feedback
 
 ---
 
 ## DATA CLEANING
+
 1.Checked for missing values
 
 2.Dropping the irrelevant columns
@@ -180,6 +242,29 @@ The Recommendation System successfully suggests recipes but can be enhanced with
 Implementing these models in a real-world food app can boost user engagement, improve satisfaction, and increase retention rates.
 
 ---
+
+
+## RECOMMENDATION
+
+Marketing Focus
+
+Promote highly rated and calorie-dense recipes to attract food enthusiasts.
+
+Highlight these recipes in advertisements, social media, and promotional campaigns.
+
+User Insights & Review Analysis
+
+Analyze negative reviews across different rating ranges to identify recurring issues.
+
+Focus on reviews from 2013-2018 to detect significant shifts in sentiment and trends.
+
+Health-Conscious Options
+
+Introduce low-calorie and nutrient-rich alternatives to cater to health-conscious consumers.
+
+
+---
+
 
 ## NEXT STEP
 
