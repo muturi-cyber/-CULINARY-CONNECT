@@ -183,13 +183,13 @@ Sodium-rich foods tend to have less potassium which may impact dietary balance.
 
 ## MODELING
 
-1. RECOMMENDATION SYSTEM
+### 1. RECOMMENDATION SYSTEM
 
 Objective:
  
 Provide personalized recipe suggestions to users based on preference, past interactions or similarities.
  
-Modelling Techniques used:
+Modeling Techniques used:
  
 Content-Based Filtering:
 It utilizes TF-IDF or cosine similarity to recommend recipes based on ingredient overlap.
@@ -199,12 +199,20 @@ Leverages user-item interaction matrix for personalized suggestions.
  
 Evaluation Metrics:
 
-Precision, Recall, RMSE and MAE to measure the recommendation quality and relevance.
+Content-Based Model Results:
+MSE: 0.1214
+RMSE: 0.3484
 
-2. SENTIMENTAL ANALYSIS MODEL
+The model shows low prediction error, indicating good accuracy.
+
+Predictions deviate by ~0.35 units on average.
+
+Content-based filtering performs well for personalized recipe recommendations
+
+### 2. SENTIMENTAL ANALYSIS MODEL
 
 Objective: 
-Classify user reviews into positive,n eutral or negative sentiments, to understand user preferences and improve engagement
+Classify user reviews into positive, neutral or negative sentiments, to understand user preferences and improve engagement
  
 Modeling Techniques Used: 
 Data Preprocessing: 
@@ -212,15 +220,24 @@ Cleaning text data by removing stopwords, punctuation, and special characters.
 Tokenization and vectorization using TF-IDF or Word Embeddings for feature extraction.
 
 Model Selection and Training:  
-Naive Bayes: It is effective  for text classification based on word frequency.
 Logistic Regression: It’s used to predict the sentiment category.
-Support Vector Machines: It’s suitable for high dimensional sentiment classification tasks.
 
 Evaluation Metrics:
-Accuracy, Precision, Recall ,and F1-score to assess model performance.
+
+Accuracy - 96 %
+
+### How Recommendation and sentiment analysis work together.
+
+recommendation System - suggests recipes based on calories, ingredients and cooking time.
+Sentiments Analysis - Analyzes user reviews to understand satisfaction and improve recommendations.
+
+Feedback Loop :
+
+- Positive reviews - Boosts recipe ranking.
+- Negative reviews - Lower ranking or adjustment
+- Continuous Improvement - enhances user satisfaction and engagement
 
 ---
-
 
 ## CONCLUSION
 
@@ -235,19 +252,19 @@ Implementing these models in a real-world food app can boost user engagement, im
 
 ## RECOMMENDATION
 
-Marketing Focus
+### Marketing Focus
 
 Promote highly rated and calorie-dense recipes to attract food enthusiasts.
 
 Highlight these recipes in advertisements, social media, and promotional campaigns.
 
-User Insights & Review Analysis
+### User Insights & Review Analysis
 
 Analyze negative reviews across different rating ranges to identify recurring issues.
 
 Focus on reviews from 2013-2018 to detect significant shifts in sentiment and trends.
 
-Health-Conscious Options
+### Health-Conscious Options
 
 Introduce low-calorie and nutrient-rich alternatives to cater to health-conscious consumers.
 
