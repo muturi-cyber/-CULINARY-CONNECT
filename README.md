@@ -1,4 +1,4 @@
-# CULLINARY CONNECT- A Smart Recipe Recommendation and Nutrition Analysis Platform 
+# CULINARY CONNECT- A Smart Recipe Recommendation and Nutrition Analysis Platform 
 
 ---
 
@@ -21,7 +21,7 @@ Daniel Karue
 
 ## PROJECT OVERVIEW
 
-Food is an essential part of culture, and African cuisine is rich in diversity, flavors, and traditions. However,
+Food is essential to culture, and African cuisine is rich in diversity, flavors, and traditions. However,
 discovering authentic African recipes tailored to personal preferences can be challenging, especially for
 users unfamiliar with regional variations. This project aims to bridge that gap by developing an AI-powered
 Recipe Recommendation System and Sentiment Analysis Model.
@@ -36,9 +36,9 @@ Recipe Recommendation System and Sentiment Analysis Model.
 
 1. The primary objective is to create a recipe Recommendation system, a Sentiment Analysis Model to enhance user satisfaction through personalized recipe suggestions and improved engagement across diverse culinary experiences. 
 
-2. Improve decision making with data driven insights by identifying popular recipes and trends through sentimental analysis, understanding the pain points of customers eg ingredient availability etc., optimizing recipe suggestions based on positive and negative feedback. 
+2. Improve decision-making with data-driven insights by identifying popular recipes and trends through sentimental analysis, understanding the pain points of customers eg ingredient availability, etc., and  optimizing recipe suggestions based on positive and negative feedback. 
 
-3. Increasing revenue and platform growth by driving traffic to food blogs, e-commerce stores and cooking classes. Boosting engagement for advertisers, chefs and food businesses on the platform.
+3. Increasing revenue and platform growth by driving traffic to food blogs, e-commerce stores, and cooking classes. Boosting engagement for advertisers, chefs, and food businesses on the platform.
 
 
 ### Stakeholders
@@ -61,10 +61,10 @@ The dataset used in this project is sourced from scraping websites
 ---
 
 ## DATA CLEANING
-#### 1.Checked for missing values
+#### 1. Checked for missing values
 #### 2.Dropping the irrelevant columns
 #### 3.Checked for duplicate values
-#### 4.Cleaning of some columns
+#### 4. Cleaning of some columns
 
 ---
 
@@ -80,7 +80,7 @@ The dataset used in this project is sourced from scraping websites
 ![image link](https://github.com/muturi-cyber/Recipe-Intelligence-/blob/main/top%2010%20ingdnts%20in%20foreign%20cuisine.png)
 
 
-Most common ingredient in Foreign cuisine is Salt.
+The most common ingredient in Foreign cuisine is Salt.
 
 
 #### 2. African cuisine
@@ -89,7 +89,7 @@ Most common ingredient in Foreign cuisine is Salt.
 ![image link](https://github.com/muturi-cyber/Recipe-Intelligence-/blob/main/top%2010%20ingdnt%20african%20cuisine.png)
 
 
-Most common ingredient in African cuisine is Salt.
+The most common ingredient in African cuisine is Salt.
 
 
 #### Correlation between different Nutrients
@@ -100,9 +100,9 @@ Most common ingredient in African cuisine is Salt.
 
 Fat content is a strong predictor of calorie count.
  
-High fat foods typically contain more saturated fat and fatty acids.
+High-fat foods typically contain more saturated fat and fatty acids.
 
-Sodium rich foods tend to have less potassium which may impact dietary balance. 
+Sodium-rich foods tend to have less potassium which may impact dietary balance. 
 
 
 #### Top 10 Healthiest African Recipes
@@ -119,41 +119,41 @@ Sodium rich foods tend to have less potassium which may impact dietary balance.
 
 ## MODELING
 
-1.RECOMMENDATION SYSTEM
+1. RECOMMENDATION SYSTEM
 
 Objective:
  
 Provide personalized recipe suggestions to users based on preference, past interactions or similarities.
  
-Modelling Techinques used:
+Modelling Techniques used:
  
 Content-Based Filtering:
 It utilizes TF-IDF or cosine similarity to recommend recipes based on ingredient overlap.
  
 Collaborative Filtering:
-Leverages user item interaction matrix for personalized suggestions.
+Leverages user-item interaction matrix for personalized suggestions.
  
 Evaluation Metrics:
 
-Precision, Recall,RMSE and MAE to measure the recommendation quality and relevance.
+Precision, Recall, RMSE and MAE to measure the recommendation quality and relevance.
 
-2.SENTIMENTAL ANALYSIS MODEL
+2. SENTIMENTAL ANALYSIS MODEL
 
 Objective: 
-Classify user reiviews into positive,neutral or negative sentiments,to understand user preferences and improve engagement
+Classify user reviews into positive,n eutral or negative sentiments, to understand user preferences and improve engagement
  
-Modelling Techniques Used: 
+Modeling Techniques Used: 
 Data Preprocessing: 
-Cleaning text data by removing stopwords, punctuation and special characters.
+Cleaning text data by removing stopwords, punctuation, and special characters.
 Tokenization and vectorization using TF-IDF or Word Embeddings for feature extraction.
 
 Model Selection and Training:  
 Naive Bayes: It is effective  for text classification based on word frequency.
-Logisitic Regression: It’s used to predict the sentiment category.
+Logistic Regression: It’s used to predict the sentiment category.
 Support Vector Machines: It’s suitable for high dimensional sentiment classification tasks.
 
 Evaluation Metrics:
-Accuracy, Precision, Recall and F1-score to assess model performance.
+Accuracy, Precision, Recall ,and F1-score to assess model performance.
 
 ---
 
