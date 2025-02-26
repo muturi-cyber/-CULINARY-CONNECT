@@ -162,11 +162,11 @@ The most common ingredient in African cuisine is Salt.
 ![image link](https://github.com/muturi-cyber/Recipe-Intelligence-/blob/main/corr%20btn%20diff%20nutrients.png)
 
 
-Fat content is a strong predictor of calorie count.
+- Fat content is a strong predictor of calorie count.
  
-High-fat foods typically contain more saturated fat and fatty acids.
+- High-fat foods typically contain more saturated fat and fatty acids.
 
-Sodium-rich foods tend to have less potassium which may impact dietary balance. 
+- Sodium-rich foods tend to have less potassium which may impact dietary balance. 
 
 
 #### Top 10 Healthiest African Recipes
@@ -205,11 +205,11 @@ MSE: 0.1214
 
 RMSE: 0.3484
 
-The model shows low prediction error, indicating good accuracy.
+- The model shows low prediction error, indicating good accuracy.
 
-Predictions deviate by ~0.35 units on average.
+- Predictions deviate by ~0.35 units on average.
 
-Content-based filtering performs well for personalized recipe recommendations
+- Content-based filtering performs well for personalized recipe recommendations
 
 ### 2. SENTIMENTAL ANALYSIS MODEL
 
