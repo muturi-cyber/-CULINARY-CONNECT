@@ -200,7 +200,9 @@ Leverages user-item interaction matrix for personalized suggestions.
 Evaluation Metrics:
 
 Content-Based Model Results:
+
 MSE: 0.1214
+
 RMSE: 0.3484
 
 The model shows low prediction error, indicating good accuracy.
@@ -212,14 +214,18 @@ Content-based filtering performs well for personalized recipe recommendations
 ### 2. SENTIMENTAL ANALYSIS MODEL
 
 Objective: 
+
 Classify user reviews into positive, neutral or negative sentiments, to understand user preferences and improve engagement
  
 Modeling Techniques Used: 
+
 Data Preprocessing: 
 Cleaning text data by removing stopwords, punctuation, and special characters.
+
 Tokenization and vectorization using TF-IDF or Word Embeddings for feature extraction.
 
 Model Selection and Training:  
+
 Logistic Regression: It’s used to predict the sentiment category.
 
 Evaluation Metrics:
@@ -268,7 +274,7 @@ Focus on reviews from 2013-2018 to detect significant shifts in sentiment and tr
 
 Introduce low-calorie and nutrient-rich alternatives to cater to health-conscious consumers.
 
-
+---
 
 ## NEXT STEP
 
